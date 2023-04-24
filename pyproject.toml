@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "auto-loan-defaults"
+version = "0.1.0"
+description = ""
+authors = ["Dalton Wilson <dalton.wilson29@gmail.com>"]
+readme = "README.md"
+packages = [{include = "auto_loan_defaults"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.24.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
